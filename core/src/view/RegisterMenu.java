@@ -10,14 +10,11 @@ import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.*;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
-import com.badlogic.gdx.utils.ScreenUtils;
-import com.badlogic.gdx.utils.viewport.ScreenViewport;
 import com.mygdx.game.AtomicBomber;
 import controller.LoginMenuApp;
 import controller.RegisterMenuApp;
 import model.GameInfo;
 import model.Resault;
-import model.User;
 
 public class RegisterMenu extends ApplicationAdapter implements Screen {
     AtomicBomber game;
